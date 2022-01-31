@@ -1,0 +1,89 @@
+nohup: ignoring input
+Dataset: 50salads	Split: 4
+Batch Size: 1	Num in channels: 2048	Num Workers: 4
+
+------------------------Loading Model------------------------
+
+Multi Stage TCN will be used as a model.
+stages: ['dilated', 'dilated', 'dilated', 'dilated']	n_features: 64	n_layers of dilated TCN: 10	kernel_size of ED-TCN: 15
+Adam will be used as an optimizer.
+
+---------------------------Start training---------------------------
+
+epoch: 0  lr: 0.0005  train_time: 221.9s  val_time: 36.6s  train loss: 11.8085  val loss: 2.9269  val_acc: 15.0042  val_edit: 10.1766 F1s: [12.669681611760828, 9.04977210949847, 4.524885231670712]
+epoch: 1  lr: 0.0005  train_time: 109.6s  val_time: 29.2s  train loss: 10.6573  val loss: 2.7915  val_acc: 13.7297  val_edit: 15.2649 F1s: [17.316015055940028, 16.450214190139175, 8.658006397931665]
+epoch: 2  lr: 0.0005  train_time: 103.4s  val_time: 33.8s  train loss: 9.2853  val loss: 2.6066  val_acc: 18.8192  val_edit: 30.3073 F1s: [23.255809516452103, 15.94683941678471, 7.973417489875648]
+epoch: 3  lr: 0.0005  train_time: 101.9s  val_time: 28.7s  train loss: 7.8721  val loss: 1.9276  val_acc: 36.3502  val_edit: 40.0484 F1s: [44.574775218651894, 34.01759046791892, 26.39295703683408]
+epoch: 4  lr: 0.0005  train_time: 96.7s  val_time: 31.5s  train loss: 7.5017  val loss: 1.7398  val_acc: 39.6980  val_edit: 42.1013 F1s: [43.01074772069083, 38.709672451873686, 26.88171546262666]
+epoch: 5  lr: 0.0005  train_time: 93.3s  val_time: 38.7s  train loss: 6.1813  val loss: 1.5513  val_acc: 43.2571  val_edit: 40.3478 F1s: [39.914158184439444, 37.33905088830214, 29.18454445053409]
+epoch: 6  lr: 0.0005  train_time: 82.3s  val_time: 32.1s  train loss: 5.5981  val loss: 1.4295  val_acc: 48.2041  val_edit: 29.7545 F1s: [29.7258256074667, 25.974021855663025, 20.202016083657444]
+epoch: 7  lr: 0.0005  train_time: 81.5s  val_time: 32.2s  train loss: 5.3575  val loss: 1.5862  val_acc: 44.7618  val_edit: 35.2884 F1s: [36.20071223667535, 31.541214028790133, 23.655909369292143]
+epoch: 8  lr: 0.0005  train_time: 92.0s  val_time: 32.7s  train loss: 5.2095  val loss: 1.4221  val_acc: 54.2024  val_edit: 36.0646 F1s: [40.34187583116422, 35.21367070295916, 30.42734591663446]
+epoch: 9  lr: 0.0005  train_time: 90.2s  val_time: 37.1s  train loss: 4.6149  val loss: 1.2790  val_acc: 58.1119  val_edit: 41.0968 F1s: [44.99999539802343, 42.14285254088061, 34.64285254088071]
+epoch: 10  lr: 0.0005  train_time: 100.4s  val_time: 35.4s  train loss: 4.5260  val loss: 1.3715  val_acc: 60.1955  val_edit: 41.6248 F1s: [49.44648979854621, 46.12545658821414, 35.05534588710728]
+epoch: 11  lr: 0.0005  train_time: 89.3s  val_time: 42.5s  train loss: 4.3186  val loss: 1.2326  val_acc: 62.4388  val_edit: 39.2369 F1s: [46.20689202265205, 41.37930581575555, 32.068960988169486]
+epoch: 12  lr: 0.0005  train_time: 96.2s  val_time: 38.3s  train loss: 4.1584  val loss: 1.3239  val_acc: 56.9164  val_edit: 43.0577 F1s: [47.96904747176324, 43.71372832282712, 34.81624282959708]
+epoch: 13  lr: 0.0005  train_time: 103.1s  val_time: 35.2s  train loss: 3.9108  val loss: 1.0404  val_acc: 70.0277  val_edit: 52.0149 F1s: [58.19671646676001, 55.7377000733174, 47.95081482741584]
+epoch: 14  lr: 0.0005  train_time: 84.2s  val_time: 27.1s  train loss: 3.4689  val loss: 1.1140  val_acc: 72.7262  val_edit: 53.3028 F1s: [57.894732140666896, 54.511273494050386, 43.60901785495274]
+epoch: 15  lr: 0.0005  train_time: 94.0s  val_time: 31.2s  train loss: 3.3832  val loss: 0.9518  val_acc: 77.7161  val_edit: 56.4872 F1s: [65.96194014437144, 63.847775239508884, 54.12261667714109]
+epoch: 16  lr: 0.0005  train_time: 87.3s  val_time: 30.3s  train loss: 3.4130  val loss: 1.2118  val_acc: 66.4359  val_edit: 52.0733 F1s: [58.59872122195667, 54.7770651710013, 45.010610818559776]
+epoch: 17  lr: 0.0005  train_time: 94.6s  val_time: 28.5s  train loss: 3.1067  val loss: 0.9467  val_acc: 77.9755  val_edit: 59.2877 F1s: [68.23027228754223, 64.8187584282672, 53.73133838562336]
+epoch: 18  lr: 0.0005  train_time: 92.6s  val_time: 37.8s  train loss: 2.7178  val loss: 1.0408  val_acc: 76.5000  val_edit: 60.6989 F1s: [69.56521242337797, 67.73454880781735, 59.954228441684656]
+epoch: 19  lr: 0.0005  train_time: 99.6s  val_time: 35.3s  train loss: 2.8234  val loss: 1.1290  val_acc: 71.6801  val_edit: 55.6916 F1s: [65.09635483990517, 62.09849616752832, 53.10492015039776]
+epoch: 20  lr: 0.0005  train_time: 86.8s  val_time: 38.0s  train loss: 3.1468  val loss: 1.1062  val_acc: 68.6157  val_edit: 51.4695 F1s: [57.48987371592755, 56.275298817142136, 45.748983027668565]
+epoch: 21  lr: 0.0005  train_time: 96.9s  val_time: 39.8s  train loss: 2.6674  val loss: 0.9068  val_acc: 78.8498  val_edit: 67.2752 F1s: [75.11520240045479, 71.88939594884191, 63.13363558017835]
+epoch: 22  lr: 0.0005  train_time: 88.4s  val_time: 37.9s  train loss: 2.3163  val loss: 0.9197  val_acc: 80.4129  val_edit: 64.9891 F1s: [72.7272678116043, 70.56276564710215, 61.038956123292685]
+epoch: 23  lr: 0.0005  train_time: 79.0s  val_time: 29.2s  train loss: 2.1785  val loss: 0.9020  val_acc: 81.2546  val_edit: 67.2583 F1s: [75.05720327005987, 71.39587603893861, 66.36155109614687]
+epoch: 24  lr: 0.0005  train_time: 81.0s  val_time: 31.8s  train loss: 2.0569  val loss: 0.8368  val_acc: 82.4072  val_edit: 68.9792 F1s: [75.86206399429284, 73.10344330463766, 67.58620192532734]
+epoch: 25  lr: 0.0005  train_time: 68.9s  val_time: 27.2s  train loss: 1.9601  val loss: 0.8944  val_acc: 80.9145  val_edit: 70.0101 F1s: [80.58251927479057, 77.66989791556729, 70.38834451750907]
+epoch: 26  lr: 0.0005  train_time: 69.4s  val_time: 27.2s  train loss: 1.8806  val loss: 0.8750  val_acc: 79.3720  val_edit: 65.4211 F1s: [72.36841612274965, 69.73683717538124, 61.40350384204795]
+epoch: 27  lr: 0.0005  train_time: 69.7s  val_time: 38.5s  train loss: 1.8153  val loss: 1.0371  val_acc: 78.5973  val_edit: 69.0270 F1s: [78.15533480877117, 77.18446102236341, 65.04853869226638]
+epoch: 28  lr: 0.0005  train_time: 77.9s  val_time: 29.9s  train loss: 1.7903  val loss: 1.1567  val_acc: 75.0674  val_edit: 62.8195 F1s: [71.13163474849226, 68.82216592632136, 62.81754698867705]
+epoch: 29  lr: 0.0005  train_time: 84.0s  val_time: 33.2s  train loss: 1.7832  val loss: 0.9638  val_acc: 80.0642  val_edit: 68.8020 F1s: [76.36363140093006, 73.18181321911192, 64.99999503729376]
+epoch: 30  lr: 0.0005  train_time: 85.8s  val_time: 31.4s  train loss: 1.7233  val loss: 0.9009  val_acc: 80.1707  val_edit: 68.0179 F1s: [76.85184687596484, 74.53703206115001, 66.20369872781673]
+epoch: 31  lr: 0.0005  train_time: 93.0s  val_time: 37.0s  train loss: 1.7237  val loss: 1.1249  val_acc: 79.0216  val_edit: 69.4118 F1s: [76.88563977125435, 75.42578575665581, 70.07298770312784]
+epoch: 32  lr: 0.0005  train_time: 91.1s  val_time: 34.1s  train loss: 2.1613  val loss: 1.1307  val_acc: 74.6311  val_edit: 65.8125 F1s: [71.96261184088165, 69.15887352312464, 59.813079130601345]
+epoch: 33  lr: 0.0005  train_time: 91.2s  val_time: 36.3s  train loss: 2.0380  val loss: 0.9535  val_acc: 81.0914  val_edit: 67.0978 F1s: [73.08533424091122, 70.89715043347141, 63.45732548817605]
+epoch: 34  lr: 0.0005  train_time: 87.5s  val_time: 34.7s  train loss: 1.8063  val loss: 1.0294  val_acc: 78.6884  val_edit: 70.2980 F1s: [76.70587736758509, 74.35293619111451, 68.23528913229102]
+epoch: 35  lr: 0.0005  train_time: 83.9s  val_time: 37.3s  train loss: 2.2102  val loss: 1.1759  val_acc: 75.5879  val_edit: 63.6125 F1s: [73.95348339329401, 70.69766943980565, 62.790692695619654]
+epoch: 36  lr: 0.0005  train_time: 72.9s  val_time: 23.1s  train loss: 1.7199  val loss: 0.9307  val_acc: 82.4244  val_edit: 72.8026 F1s: [81.3559272069371, 78.45035819967318, 72.63922018514535]
+epoch: 37  lr: 0.0005  train_time: 90.9s  val_time: 37.4s  train loss: 1.5379  val loss: 1.0864  val_acc: 78.1112  val_edit: 57.3000 F1s: [64.4763811892789, 62.42299309892984, 55.44147359174302]
+epoch: 38  lr: 0.0005  train_time: 83.3s  val_time: 36.8s  train loss: 1.4069  val loss: 1.0288  val_acc: 81.2048  val_edit: 71.7213 F1s: [78.9473634283788, 77.99042562933572, 72.72726773459891]
+epoch: 39  lr: 0.0005  train_time: 85.8s  val_time: 28.5s  train loss: 1.2903  val loss: 0.9689  val_acc: 81.6583  val_edit: 69.2716 F1s: [76.81817685547553, 73.63635867365737, 67.72726776456648]
+epoch: 40  lr: 0.0005  train_time: 91.7s  val_time: 33.0s  train loss: 1.2220  val loss: 1.0110  val_acc: 83.7419  val_edit: 74.8340 F1s: [79.80997125721507, 78.85985249236947, 74.10925866814146]
+epoch: 41  lr: 0.0005  train_time: 85.4s  val_time: 35.4s  train loss: 1.2038  val loss: 1.1185  val_acc: 79.1023  val_edit: 68.1653 F1s: [74.59953736616973, 72.3112078467189, 65.90388519225671]
+epoch: 42  lr: 0.0005  train_time: 103.2s  val_time: 25.2s  train loss: 1.1947  val loss: 1.5893  val_acc: 70.3952  val_edit: 64.0859 F1s: [73.41175972052629, 70.11764207346747, 63.999995014643986]
+epoch: 43  lr: 0.0005  train_time: 97.7s  val_time: 26.2s  train loss: 1.3207  val loss: 1.0837  val_acc: 79.9526  val_edit: 70.7111 F1s: [78.65706934699752, 77.21822042613424, 68.58512690095442]
+epoch: 44  lr: 0.0005  train_time: 88.6s  val_time: 27.8s  train loss: 1.1977  val loss: 0.9093  val_acc: 83.5031  val_edit: 77.4275 F1s: [85.43688820682938, 81.06795616799445, 74.27183966314013]
+epoch: 45  lr: 0.0005  train_time: 60.0s  val_time: 20.6s  train loss: 1.1280  val loss: 1.0206  val_acc: 82.3883  val_edit: 77.5685 F1s: [84.87804378239173, 81.46340963605027, 73.17072670922104]
+epoch: 46  lr: 0.0005  train_time: 70.3s  val_time: 18.6s  train loss: 1.1079  val loss: 1.0682  val_acc: 82.7799  val_edit: 72.4755 F1s: [80.09367183212794, 75.87821515765488, 68.85245403353314]
+epoch: 47  lr: 0.0005  train_time: 69.6s  val_time: 15.9s  train loss: 1.1114  val loss: 1.2500  val_acc: 76.3196  val_edit: 64.2440 F1s: [73.90299733509733, 71.13163474849226, 62.35565322424289]
+epoch: 48  lr: 0.0005  train_time: 60.7s  val_time: 16.3s  train loss: 1.1421  val loss: 0.9653  val_acc: 83.2558  val_edit: 71.9232 F1s: [81.14557973376806, 77.80429095095184, 71.59904035429315]
+epoch: 49  lr: 0.0005  train_time: 51.6s  val_time: 16.0s  train loss: 1.0775  val loss: 1.1213  val_acc: 81.8524  val_edit: 75.6513 F1s: [80.098275099035, 76.65847165923158, 71.7444667452267]
+
+
+**************************************************************  Best Acc ***************************************************************
+
+epoch: 40	lr: 0.0005	val_acc: 83.7419	val_edit: 74.8340	F1s: [79.80997125721507, 78.85985249236947, 74.10925866814146]
+
+**************************************************************  Best Edit **************************************************************
+
+epoch: 45	lr: 0.0005	val_acc: 82.3883	val_edit: 77.5685	F1s: [84.87804378239173, 81.46340963605027, 73.17072670922104]
+
+**************************************************************  Best F1 ***************************************************************
+
+epoch: 44	lr: 0.0005	val_acc: 83.5031	val_edit: 77.4275	F1s: [85.43688820682938, 81.06795616799445, 74.27183966314013]
+
+**************************************************************   config  ****************************************************************
+
+tmse_weight 0.15   optimizer:  Adam  scheduler:  None n_classes:  19
+kernel_size 15   n_features:  64  in_channel:  2048
+Dataset: 50salads	Split: 4
+Batch Size: 1	Num in channels: 2048	Num Workers: 4
+Dataset: 50salads	Split: 4
+train_data:  40
+
+***************************************************************************************************************************************
+
+All_time: 100.6412min
+./result/50salads/ms-tcn/split4
