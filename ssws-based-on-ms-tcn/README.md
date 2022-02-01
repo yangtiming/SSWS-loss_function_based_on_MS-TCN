@@ -134,4 +134,4 @@ python3 utils/average_cv_results.py ./result/XXX/ms-tcn/
 
 ## References
 
-- code_based_on [leslieAIbin/ms-tcn-pytorch](https://github.com/leslieAIbin/ms-tcn-pytorch)
+* code_based_on [leslieAIbin/ms-tcn-pytorch](https://github.com/leslieAIbin/ms-tcn-pytorch)
